@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+作者：王鹏飞
+链接：https://www.zhihu.com/question/57523080/answer/156489294
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-You can use the [editor on GitHub](https://github.com/AlfredW2016/Alfred.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AlfredW2016/Alfred.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1.Robust Visual Tracking Using Oblique Random Forestshttps://sites.google.com/site/zhangleuestc/incremental-oblique-random-forest
+2.End-to-end representation learning for the Correlation Filter  End-to-end representation learning for Correlation Filter based tracking很早就放文章了 Learning feed-forward one-shot learners ，Staple作者 Luca Bertinetto - Personal page的工作，KCF大神  João F. Henriques 是二作了，牛大视觉组你懂的。
+3. Context-Aware Correlation Filter Tracking https://ivul.kaust.edu.sa/Pages/pub-ca-cf-tracking.aspx这个组国内Tianzhu Zhang 老师做过访问学者，之前小哥  Home - Adel Bibi工作也很多。题外篇 King Abdullah University 沙特搞石油的很有钱。另外最近也有一篇背景建模KCF 改进工作，[1703.04590] Learning Background-Aware Correlation Filters for Visual Tracking
+4. Attentional Correlation Filter Network for Adaptive Visual Tracking https://sites.google.com/site/jwchoivision/home/acfn-1https://www.youtube.com/watch?v=WCcaxLiDuyI也是他们之前工作SCT： Visual Tracking Using Attention-Modulated Disintegration and Integration （2016CVPR）再改进版本，无外乎加DL。（https://sites.google.com/site/jwchoivision/home/sct）
+5. Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning 这个随着DRL火起来后，在目标跟踪也要刷一轮文章。Perception and Intelligence Lab有兴趣的可以看看相关工作：[1702.06291]
+Visual Tracking by Reinforced Decision Making[1701.08936] Deep Reinforcement Learning for Visual Object Tracking in Videos另外http://berkeley.edu 都说“ driving for the future ”http://bdd.berkeley.edu/project/deep-reinforcement-learningps：三年研究生磨一剑，毕业在即从此和object tracking说再见。从读Naiyan Wang - Home的基于深度学习的tracker（DLT）接触tracking，到转做基于KCF改进工作。有幸与上交的ChaoMa:https://sites.google.com/site/chaoma99/ ，浙大的YangLi：https://scholar.google.com/citations?user=N1ZDSHYAAAAJ ，自动化所Guibo Zhu - Semantic Scholar等优秀的学长做过一些探讨，感谢他们给过地帮助。简单地对tracking工作做个总结：
+一、研究tracking的一些学者Ming-Hsuan Yang：Ming-Hsuan Yang&amp;amp;amp;amp;amp;amp;#x27;s Home PageFatih Porikli:http://www.porikli.com/Bohyung Han：Bohyung Han&amp;amp;amp;amp;amp;amp;#x27;s homepageHuchuan Lu:PublicationsHaibin Ling :  Homepage for Haibin LingTianzhu Zhang :Tianzhu Zhang João F. Henriques ：João F. HenriquesMartin Danelljan：Martin Danelljan 
+二、读paper的地方1.计算机视觉领域内三大顶会ICCV、CVPR、ECCV、http://www.cv-foundation.org/openaccess/menu.py2. WACV、 BMVC、 ICIP等会议每年也有很多关于tracking的文章。3. Computer Vision and Pattern Recognition 、IEEE Xplore Digital Library ， 文章关于object detection，classification、DL等都可以选择读，不限于目标跟踪。
+三、数据集和评价指标现在用的比较多的YiWu老师等人的Visual Tracker Benchmark，以及每年VOT比赛数据集VOT Challenge | Challenges。四、关于研究tracking的一点建议1. 入门篇：Understanding and Diagnosing Visual Tracking Systems, 文章读懂+code，也就搞清楚discriminative类型tracker的一般框架。2. 需要的基础：图像处理（重点是各种feature）+机器学习/模式识别（常见分类器原理），当然这两部分可以现在end-to-end的深度学习解决。统计学、矩阵论、凸优化这些数学基础多多益善，属于内功了。编程语言科研还是用MATLAB多一些，c++/python也要懂。3. 交流的平台：Kaihua Zhang老师建的QQ群261539583、127916362，valse:VALSE - 视觉与学习青年学者研讨会 ， 北邮陈光老师微博爱可可-爱生活Sina Visitor System 等。
